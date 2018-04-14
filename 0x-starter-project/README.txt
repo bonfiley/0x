@@ -11,5 +11,5 @@ For Relayer
 - Install Flask and Flask Sockets:
   https://github.com/kennethreitz/flask-sockets
 
-- Run the relayer scripts from my_relay based on tutorial. (Open the python files
+- Run the relayer scripts from my_relay based on tutorial. (Open the python files to see which tutorial it applies to).
 
