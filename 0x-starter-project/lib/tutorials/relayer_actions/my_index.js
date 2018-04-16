@@ -57,7 +57,7 @@ var mainAsync = function () { return __awaiter(_this, void 0, void 0, function (
                 provider = new Web3.providers.HttpProvider('http://localhost:8545');
                 zeroExConfig = {
                     /* networkId: 50, */
-                    networkId: 42, /* Puneet: Kovan */
+                    networkId: 42, /* Kovan */
                 };
                 zeroEx = new _0x_js_1.ZeroEx(provider, zeroExConfig);
                 relayerApiUrl = 'http://localhost:3000/v0';
@@ -144,7 +144,7 @@ var mainAsync = function () { return __awaiter(_this, void 0, void 0, function (
                                 case 3:
                                     // Submit order to relayer
                                     _a.sent();
-                                    console.log("PUNEET: order sent");
+                                    console.log("Order sent");
                                     return [2 /*return*/];
                             }
                         });

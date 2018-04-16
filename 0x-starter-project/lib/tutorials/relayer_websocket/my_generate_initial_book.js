@@ -56,7 +56,7 @@ var mainAsync = function () { return __awaiter(_this, void 0, void 0, function (
             case 0:
                 provider = new Web3.providers.HttpProvider('http://localhost:8545');
                 zeroExConfig = {
-                    networkId: 42, /* PUNEET: Kovan */ 
+                    networkId: 42, /* Kovan */ 
                 };
                 zeroEx = new _0x_js_1.ZeroEx(provider, zeroExConfig);
                 relayerHttpApiUrl = 'http://localhost:3001/v0';

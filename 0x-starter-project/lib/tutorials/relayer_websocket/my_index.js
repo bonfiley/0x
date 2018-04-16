@@ -47,12 +47,12 @@ var mainAsync = function () { return __awaiter(_this, void 0, void 0, function (
             case 0:
                 provider = new Web3.providers.HttpProvider('http://localhost:8545');
                 zeroExConfig = {
-                    networkId: 42, /* PUNEET: for Kovan */
+                    networkId: 42, /* for Kovan */
                 };
                 zeroEx = new _0x_js_1.ZeroEx(provider, zeroExConfig);
                 relayerWsApiUrl = 'http://localhost:3001/v0';
                 orderbookChannel = new connect_1.WebSocketOrderbookChannel(relayerWsApiUrl);
-                console.log("PUNEET: Connected!");
+                console.log("Connected!");
                 return [4 /*yield*/, zeroEx.exchange.getContractAddress()];
             case 1:
                 EXCHANGE_ADDRESS = _a.sent();
